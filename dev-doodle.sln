@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doodle", "Doodle\Doodle.csproj", "{E4884BA9-9235-43D2-A77C-9065D72ECFE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doodle.Tests", "Doodle.Tests\Doodle.Tests.csproj", "{62C80573-87CA-4069-A58E-CDA611ED4B86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution", "solution", "{0D723B9F-5102-4FDF-990A-09285B93B411}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doodle.Benchmarks", "Doodle.Benchmarks\Doodle.Benchmarks.csproj", "{D96D88B6-F1E8-41D9-BD3D-F6C5C8BA1CEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4884BA9-9235-43D2-A77C-9065D72ECFE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4884BA9-9235-43D2-A77C-9065D72ECFE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4884BA9-9235-43D2-A77C-9065D72ECFE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4884BA9-9235-43D2-A77C-9065D72ECFE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62C80573-87CA-4069-A58E-CDA611ED4B86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62C80573-87CA-4069-A58E-CDA611ED4B86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62C80573-87CA-4069-A58E-CDA611ED4B86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62C80573-87CA-4069-A58E-CDA611ED4B86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D96D88B6-F1E8-41D9-BD3D-F6C5C8BA1CEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D96D88B6-F1E8-41D9-BD3D-F6C5C8BA1CEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D96D88B6-F1E8-41D9-BD3D-F6C5C8BA1CEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D96D88B6-F1E8-41D9-BD3D-F6C5C8BA1CEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
